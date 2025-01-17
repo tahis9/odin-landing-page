@@ -13,7 +13,7 @@ body > * {
   padding-right: 64px;
 }
 
-.container1, .container2, .container3{
+.container1, .container2, .container3, .container4 {
   padding-top: 48px;
   padding-bottom: 48px;
 }
@@ -75,7 +75,7 @@ body > * {
   font-weight: 900;
 }
 
-.hero-button {
+.button {
   background-color: #3882F6;
   border-radius: 10px;
   padding: 6px 32px;
@@ -142,4 +142,36 @@ body > * {
 .attribution {
   font-weight: 700;
   text-align: right;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-box {
+  background-color: #3882F6;
+  border-radius: 4px;
+  display: flex;
+  color: white;
+  padding: 32px;
+  gap: 60px;
+  width: 900px;
+}
+
+.cta-header {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.cta-text {
+  color: #E5E7EB;
+}
+
+.cta-box .button {
+  margin-left: auto;
+  border: 2px solid white;
+  align-self: center;
+  flex-shrink: 0;
 }
