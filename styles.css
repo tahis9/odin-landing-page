@@ -1,3 +1,42 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
   font-family: roboto;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .container1, .container2, 
+.container3, .footer {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.header, .container1, .footer {
+  background-color: #1F2937;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header > .logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.right-links {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.right-links a {
+  text-decoration: none;
 }
