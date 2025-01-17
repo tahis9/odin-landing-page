@@ -20,7 +20,7 @@ body {
   color: #E5E7EB;
 }
 
-.header {
+.header, .footer {
   display: flex;
   align-items: center;
 }
@@ -39,4 +39,9 @@ body {
 
 .right-links a {
   text-decoration: none;
+}
+
+.footer {
+  justify-content: center;
+  height: 36px;
 }
